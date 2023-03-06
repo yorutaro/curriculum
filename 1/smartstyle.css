@@ -1,13 +1,13 @@
 @media screen and (max-width: 479px) {
     .header{
         width: 200px;
-        height: 220px;
+        height: 200px;
     }
-    .header ul{
-        display: flex;
+    .items1{
+        width: auto;
+        height: 140px;
         flex-direction: column;
-        padding: 20px 70px;
-        
+        left: 70px;      
     }
     .main{
         display: block;

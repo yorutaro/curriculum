@@ -2,19 +2,19 @@
     background-color: #141f40;
     height: 100px;
     width: 400px;
+    position:relative;
 }
 
-.header ul{
+.items1{
+    background-color: white;
+    width: 140px;
     display: flex;
-    list-style: none;
-    padding-left: 200px;
-    padding-top: 20px;
+    position:absolute;
+    left: 220px;
+    top: 20px;
+    padding: 10px 10px;
+    justify-content: space-between;
 }
-.header ul li {
-    border: solid;
-    border-color: white;
-    border-width: 10px;
-    }
 
 .item{
     background-color: #a9004b;
